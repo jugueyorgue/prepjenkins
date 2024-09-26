@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController("/")
 public class MyController {
-	
+	//http://localhost:8081/api/health
 	@RequestMapping("api/health")
 	public String sayHello() {
 		return "API Health is good for Jugue family";
