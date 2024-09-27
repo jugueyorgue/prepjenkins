@@ -8,7 +8,7 @@ public class MyController {
 	//http://localhost:8081/api/health
 	@RequestMapping("api/health")
 	public String sayHello() {
-		return "Hello Jugue Nkuzu";
+		return "Hello Jugue ";
 	}
 	
 }
